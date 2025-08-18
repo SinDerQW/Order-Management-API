@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tigran\\Desktop\\TestTask\\Order-Management-API\\Order-Management-API.csproj": {}
+    "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\Order-Management-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tigran\\Desktop\\TestTask\\Order-Management-API\\Order-Management-API.csproj": {
+    "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\Order-Management-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tigran\\Desktop\\TestTask\\Order-Management-API\\Order-Management-API.csproj",
+        "projectUniqueName": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\Order-Management-API.csproj",
         "projectName": "Order-Management-API",
-        "projectPath": "C:\\Users\\Tigran\\Desktop\\TestTask\\Order-Management-API\\Order-Management-API.csproj",
+        "projectPath": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\Order-Management-API.csproj",
         "packagesPath": "C:\\Users\\Tigran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tigran\\Desktop\\TestTask\\Order-Management-API\\obj\\",
+        "outputPath": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,38 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
