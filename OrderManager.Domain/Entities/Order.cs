@@ -1,27 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OrderManagement.Domain.Enums;
-using OrderManagement.Domain.Entities;
-using OrderManager.Domain.Entities;
+﻿using OrderManager.Domain.Enums;
 
-namespace OrderManagement.Domain.Entities
+namespace OrderManager.Domain.Entities
 {
     public class Order
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public Guid UserId { get; set; }
         public User User { get; set; }  
         public OrderStatus Status { get; set; } = OrderStatus.Created;
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
-        public decimal Total => Items.Sum(i => i.Quantity * i.Price);
+        public decimal Total => Items.Sum(i => i.Quantity * i.Product.Price);
 
-        public Order()
-        { 
-            CreatedAt = DateTime.UtcNow;
-        }
     }
 }

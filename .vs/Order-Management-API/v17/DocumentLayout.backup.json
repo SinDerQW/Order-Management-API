@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:ordermanager.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:ordermanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:ordermanager.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:ordermanager.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.infrastructure\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:ordermanager.infrastructure\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D9F90E-EBEB-4AF8-A69E-C9FB41E1A890}|Order-Management-API.csproj|c:\\users\\tigran\\desktop\\testtask\\ordermanegment\\order-management-api\\ordermanager.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,20 +42,58 @@
       "DocumentGroups": [
         {
           "DockedHeight": 338,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "OrderManager.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "OrderManager.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:42:48.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "OrderManager.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "OrderManager.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:22:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "OrderManager.Domain\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\User.cs",
               "RelativeToolTip": "OrderManager.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:28:13.07Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-08-18T15:21:01.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrderManager.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "OrderManager.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T14:24:04.475Z",
               "EditorCaption": ""
             },
             {
@@ -60,20 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "OrderManager.Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "OrderManager.Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T14:24:04.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -99,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "OrderManager.Api\\Data\\AppDbContext.cs",
@@ -107,12 +140,11 @@
               "RelativeToolTip": "OrderManager.Api\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:19:50.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:19:50.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "OrderDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\TestTask\\OrderManegment\\Order-Management-API\\OrderManager.Infrastructure\\Data\\OrderDbContext.cs",
               "RelativeDocumentMoniker": "OrderManager.Infrastructure\\Data\\OrderDbContext.cs",
@@ -120,8 +152,7 @@
               "RelativeToolTip": "OrderManager.Infrastructure\\Data\\OrderDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:17:28.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T13:17:28.795Z"
             }
           ]
         }

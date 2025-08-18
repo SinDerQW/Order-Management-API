@@ -1,23 +1,13 @@
-﻿namespace OrderManagementAPI.OrderManager.Domain.Entities
+﻿namespace  OrderManager.Domain.Entities
 {
     public class Product
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Price { get; set; }
-        public int Stok { get; set; }
+        public decimal Price { get; set; }
+        public int Stock { get; set; }
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
          
-        public Product(string name, string description, int price, int stok)
-        {
-            Random random = new Random();
-            Id = $"{random.Next(0, 1000000)}{random.Next(0, 1000000)}";
-            this.Name = name;
-            this.Description = description;
-            this.Price = price;
-            this.Stok = stok;
-
-
-        }
     }
 }
