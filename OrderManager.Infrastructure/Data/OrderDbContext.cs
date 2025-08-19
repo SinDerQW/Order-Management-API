@@ -1,17 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
- 
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;          // Нужно для DbContext и DbSet
-using OrderManagement.Domain.Entities;       // Чтобы использовать Order и OrderItem
-                                             // Чтобы использовать Order и OrderItem
+﻿using Microsoft.EntityFrameworkCore;
+using OrderManager.Domain.Entities;
 
 
-namespace OrderManagement.Infrastructure.Data
+namespace OrderManager.Infrastructure.Data
 {
-    internal class OrderDbContext: DbContext
-    {     
+    public class AppDbContext : DbContext
+    {
+         
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Product> Products { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+           modelBuilder.Entity<Order>()
+                .HasMany(o => o.Items)
+                .WithOne(oi => oi.Order)
+                .HasForeignKey(oi => oi.OrderId);
+
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.Orders)
+                .WithOne(o => o.User)
+                .HasForeignKey(o => o.UserId);
+
+            modelBuilder.Entity<OrderItem>()
+                .HasOne(oi => oi.Product)
+                .WithMany(p => p.OrderItems)
+                .HasForeignKey(oi => oi.ProductId);
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.Status)
+                .HasConversion<string>();
+           }
     }
 }
+
+
